@@ -1,2 +1,36 @@
 # private-npm-registry
-Private npm registry.
+
+Private NPM registry created with [Verdaccio](https://github.com/verdaccio/verdaccio).
+
+## Run
+
+```
+$ docker compose up
+```
+
+## Home page
+
+http://localhost:4873/
+
+## Default user
+
+username: publisher
+
+password:publisher
+
+## Use
+
+Define in your .npmrc a registry field.
+
+`.npmrc` file:
+
+```
+registry=http://localhost:4873
+```
+
+## Publish a package
+
+```
+$ npm login --registry=http://localhost:4873
+$ npm publish --registry=http://localhost:4873
+```
