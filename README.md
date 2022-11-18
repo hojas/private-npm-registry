@@ -34,3 +34,7 @@ registry=http://localhost:4873
 $ npm login --registry=http://localhost:4873
 $ npm publish --registry=http://localhost:4873
 ```
+
+## 参考
+
+[Docker 搭建 Verdaccio](https://www.zhihu.com/question/484035649)
