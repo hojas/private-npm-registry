@@ -16,7 +16,7 @@ http://localhost:4873/
 
 username: publisher
 
-password:publisher
+password: publisher
 
 ## Use
 
